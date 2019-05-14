@@ -29,19 +29,19 @@ int gbpm() {
 			val = m[r][c];
 			switch (val) {
 				case 0:
-				red = 0; green = 0; blue = 0;
+				red = 0; green = 0; blue = 0; // black
 				break;
 				case 1:
-				red = 255; green = 255; blue = 0;
+				red = 255; green = 255; blue = 0; // yellow
 				break;
 				case 2:
-				red = 0; green = 0; blue = 255;
+				red = 0; green = 0; blue = 255; // blue
 				break;
 				case 3:
-				red = 255; green = 255; blue = 255;
+				red = 255; green = 255; blue = 255; // white
 				break;
 				default:
-				red = 0; green = 0; blue = 255;
+				red = 0; green = 0; blue = 255; // blue
 				break;
 			} // end select and output the colors
 			std::cout << "["<<red<<" "<<green<<" "<<blue<< "]";
