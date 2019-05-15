@@ -8,4 +8,7 @@ int main () {
 	cout << "Delta" << endl;
 	cout << "X-Ray" << endl;
 	cout << "Yankee" << endl;
+	for (int i = 0; i < 256; i++)cout << (char)i;
+	
+	return 0;
 }
